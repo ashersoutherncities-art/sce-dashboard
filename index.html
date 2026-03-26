@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SCE Dashboard — Southern Cities Enterprises</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; }
+  .header { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-bottom: 1px solid #334155; padding: 2rem; text-align: center; }
+  .header h1 { font-size: 2rem; font-weight: 700; color: #f8fafc; letter-spacing: -0.5px; }
+  .header h1 span { color: #f59e0b; }
+  .header p { color: #94a3b8; margin-top: 0.5rem; font-size: 1rem; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+  .section-title { font-size: 1.1rem; font-weight: 600; color: #f59e0b; text-transform: uppercase; letter-spacing: 1.5px; margin: 2rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid #1e293b; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+  .card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 1.5rem; text-decoration: none; color: #e2e8f0; transition: all 0.2s ease; display: flex; align-items: center; gap: 1rem; }
+  .card:hover { transform: translateY(-2px); border-color: #f59e0b; box-shadow: 0 4px 20px rgba(245, 158, 11, 0.15); }
+  .card-icon { font-size: 2rem; min-width: 48px; text-align: center; }
+  .card-info h3 { font-size: 1rem; font-weight: 600; color: #f8fafc; }
+  .card-info p { font-size: 0.8rem; color: #64748b; margin-top: 0.25rem; }
+  .external-badge { font-size: 0.6rem; background: #334155; color: #94a3b8; padding: 2px 6px; border-radius: 4px; margin-left: 6px; vertical-align: middle; }
+  footer { text-align: center; padding: 2rem; color: #475569; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>⚡ <span>Southern Cities</span> Enterprises</h1>
+  <p>Command Center — All Tools & Services</p>
+</div>
+
+<div class="container">
+
+  <div class="section-title">🏗️ Construction & Development</div>
+  <div class="grid">
+    <a href="https://sce-construction-manager.vercel.app" target="_blank" class="card">
+      <div class="card-icon">🏗️</div>
+      <div class="card-info">
+        <h3>Construction Manager</h3>
+        <p>Job tracking, subs, schedules</p>
+      </div>
+    </a>
+    <a href="https://construction-draw-manager-mu.vercel.app" target="_blank" class="card">
+      <div class="card-icon">💰</div>
+      <div class="card-info">
+        <h3>Draw Manager</h3>
+        <p>Construction draw requests & tracking</p>
+      </div>
+    </a>
+    <a href="https://ashersoutherncities-art.github.io/permit-manager/" target="_blank" class="card">
+      <div class="card-icon">📋</div>
+      <div class="card-info">
+        <h3>Permit Manager</h3>
+        <p>Permit applications & status</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="section-title">📊 Deal Analysis & Research</div>
+  <div class="grid">
+    <a href="https://deal-analyzer-chi.vercel.app" target="_blank" class="card">
+      <div class="card-icon">🔍</div>
+      <div class="card-info">
+        <h3>Deal Analyzer</h3>
+        <p>Investment analysis & underwriting</p>
+      </div>
+    </a>
+    <a href="https://propstream.com" target="_blank" class="card">
+      <div class="card-icon">🗺️</div>
+      <div class="card-info">
+        <h3>PropStream <span class="external-badge">EXT</span></h3>
+        <p>Property data & lead lists</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="section-title">🌐 Company Website</div>
+  <div class="grid">
+    <a href="https://ashersoutherncities-art.github.io/sce1-full-featured/" target="_blank" class="card">
+      <div class="card-icon">🏠</div>
+      <div class="card-info">
+        <h3>SCE1 Website</h3>
+        <p>Southern Cities public website</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="section-title">💼 Business Operations</div>
+  <div class="grid">
+    <a href="https://app.clickup.com" target="_blank" class="card">
+      <div class="card-icon">✅</div>
+      <div class="card-info">
+        <h3>ClickUp <span class="external-badge">EXT</span></h3>
+        <p>Project management & tasks</p>
+      </div>
+    </a>
+    <a href="https://app.gohighlevel.com" target="_blank" class="card">
+      <div class="card-icon">📈</div>
+      <div class="card-info">
+        <h3>GoHighLevel <span class="external-badge">EXT</span></h3>
+        <p>CRM & marketing automation</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="section-title">📁 Google Workspace</div>
+  <div class="grid">
+    <a href="https://mail.google.com" target="_blank" class="card">
+      <div class="card-icon">📧</div>
+      <div class="card-info">
+        <h3>Gmail <span class="external-badge">EXT</span></h3>
+        <p>Email inbox</p>
+      </div>
+    </a>
+    <a href="https://drive.google.com" target="_blank" class="card">
+      <div class="card-icon">📂</div>
+      <div class="card-info">
+        <h3>Google Drive <span class="external-badge">EXT</span></h3>
+        <p>Files & documents</p>
+      </div>
+    </a>
+    <a href="https://sheets.google.com" target="_blank" class="card">
+      <div class="card-icon">📊</div>
+      <div class="card-info">
+        <h3>Google Sheets <span class="external-badge">EXT</span></h3>
+        <p>Spreadsheets & data</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="section-title">🏦 Lending & Finance</div>
+  <div class="grid">
+    <a href="https://kiavi.com" target="_blank" class="card">
+      <div class="card-icon">🏦</div>
+      <div class="card-info">
+        <h3>Kiavi <span class="external-badge">EXT</span></h3>
+        <p>Fix & flip / rental loans</p>
+      </div>
+    </a>
+    <a href="https://nationalloanfunding.us" target="_blank" class="card">
+      <div class="card-icon">💵</div>
+      <div class="card-info">
+        <h3>National Loan Funding <span class="external-badge">EXT</span></h3>
+        <p>Private lending partner</p>
+      </div>
+    </a>
+    <a href="https://southerncitiesinvestors.sharefileftp.com" target="_blank" class="card">
+      <div class="card-icon">📤</div>
+      <div class="card-info">
+        <h3>ShareFile <span class="external-badge">EXT</span></h3>
+        <p>Secure document sharing</p>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  Southern Cities Enterprises &copy; 2026 — Built by Asher ⚡
+</footer>
+
+</body>
+</html>
